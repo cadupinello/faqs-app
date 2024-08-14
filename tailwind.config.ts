@@ -10,7 +10,6 @@ const config = {
   ],
   prefix: "",
   theme: {
-    
     container: {
       center: true,
       padding: "2rem",
@@ -55,6 +54,19 @@ const config = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        glassmorphism: "16px",
+      },
+      boxShadow: {
+        glassmorphism: "0 4px 30px rgba(0, 0, 0, 0.1)",
+      },
+      backdropBlur: {
+        glassmorphism: "13.8px",
+      },
+      backgroundColor: {
+        'glassmorphism-bg': "rgba(255, 255, 255, 0.03)",
+      },
+      borderColor: {
+        glassmorphism: "rgba(255, 255, 255, 0.35)",
       },
       keyframes: {
         "accordion-down": {
